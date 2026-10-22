@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mira8264.github.io/sitemap.xml
