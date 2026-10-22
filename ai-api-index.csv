@@ -1,0 +1,101 @@
+number,category,site,url,analytics_tag
+1,Developer Tools,AI Code Review,https://mira8264.github.io/ai-code-review/,ai-code-review
+2,Developer Tools,AI Test Generation,https://mira8264.github.io/ai-test-generation/,ai-test-generation
+3,Developer Tools,AI SQL Assistant,https://mira8264.github.io/ai-sql-assistant/,ai-sql-assistant
+4,Developer Tools,AI API Documentation,https://mira8264.github.io/ai-api-documentation/,ai-api-documentation
+5,Developer Tools,AI Legacy Code Explanation,https://mira8264.github.io/ai-legacy-code/,ai-legacy-code
+6,Developer Tools,AI Log Analysis,https://mira8264.github.io/ai-log-analysis/,ai-log-analysis
+7,Developer Tools,AI Regex Design,https://mira8264.github.io/ai-regex-design/,ai-regex-design
+8,Developer Tools,AI Dependency Migration,https://mira8264.github.io/ai-dependency-migration/,ai-dependency-migration
+9,Developer Tools,AI Error Message Design,https://mira8264.github.io/ai-error-message-design/,ai-error-message-design
+10,Developer Tools,AI Commit Summaries,https://mira8264.github.io/ai-commit-summaries/,ai-commit-summaries
+11,Knowledge Work,AI Document Summarization,https://mira8264.github.io/ai-document-summary/,ai-document-summary
+12,Knowledge Work,AI Meeting Notes,https://mira8264.github.io/ai-meeting-notes/,ai-meeting-notes
+13,Knowledge Work,AI Knowledge Search,https://mira8264.github.io/ai-knowledge-search/,ai-knowledge-search
+14,Knowledge Work,AI Document Comparison,https://mira8264.github.io/ai-document-comparison/,ai-document-comparison
+15,Knowledge Work,AI Research Triage,https://mira8264.github.io/ai-research-triage/,ai-research-triage
+16,Knowledge Work,AI Proposal Outlines,https://mira8264.github.io/ai-proposal-outline/,ai-proposal-outline
+17,Knowledge Work,AI FAQ Authoring,https://mira8264.github.io/ai-faq-authoring/,ai-faq-authoring
+18,Knowledge Work,AI Taxonomy Design,https://mira8264.github.io/ai-taxonomy-design/,ai-taxonomy-design
+19,Knowledge Work,AI Note Organization,https://mira8264.github.io/ai-note-organization/,ai-note-organization
+20,Knowledge Work,AI Brief Extraction,https://mira8264.github.io/ai-brief-extraction/,ai-brief-extraction
+21,Customer Operations,AI Support Triage,https://mira8264.github.io/ai-support-triage/,ai-support-triage
+22,Customer Operations,AI Support Reply Drafts,https://mira8264.github.io/ai-reply-drafts/,ai-reply-drafts
+23,Customer Operations,AI Ticket Deduplication,https://mira8264.github.io/ai-ticket-deduplication/,ai-ticket-deduplication
+24,Customer Operations,AI Feedback Clustering,https://mira8264.github.io/ai-feedback-clustering/,ai-feedback-clustering
+25,Customer Operations,AI Help Center Search,https://mira8264.github.io/ai-help-center-search/,ai-help-center-search
+26,Customer Operations,AI Support Handoff,https://mira8264.github.io/ai-handoff-summary/,ai-handoff-summary
+27,Customer Operations,AI Service Status Copy,https://mira8264.github.io/ai-service-status-copy/,ai-service-status-copy
+28,Customer Operations,AI Returns Guidance,https://mira8264.github.io/ai-returns-guidance/,ai-returns-guidance
+29,Customer Operations,AI Customer Onboarding,https://mira8264.github.io/ai-customer-onboarding/,ai-customer-onboarding
+30,Customer Operations,AI Survey Analysis,https://mira8264.github.io/ai-survey-analysis/,ai-survey-analysis
+31,Commerce Content,AI Product Descriptions,https://mira8264.github.io/ai-product-descriptions/,ai-product-descriptions
+32,Commerce Content,AI Catalog Normalization,https://mira8264.github.io/ai-catalog-normalization/,ai-catalog-normalization
+33,Commerce Content,AI Product Attribute Extraction,https://mira8264.github.io/ai-attribute-extraction/,ai-attribute-extraction
+34,Commerce Content,AI Shopping Assistance,https://mira8264.github.io/ai-shopping-assistance/,ai-shopping-assistance
+35,Commerce Content,AI Size Guide Copy,https://mira8264.github.io/ai-size-guide-copy/,ai-size-guide-copy
+36,Commerce Content,AI Review Summaries,https://mira8264.github.io/ai-review-summaries/,ai-review-summaries
+37,Commerce Content,AI Marketplace Listings,https://mira8264.github.io/ai-marketplace-listings/,ai-marketplace-listings
+38,Commerce Content,AI Inventory Alert Copy,https://mira8264.github.io/ai-inventory-alert-copy/,ai-inventory-alert-copy
+39,Commerce Content,AI Bundle Explanations,https://mira8264.github.io/ai-bundle-explanations/,ai-bundle-explanations
+40,Commerce Content,AI Category Introductions,https://mira8264.github.io/ai-category-introductions/,ai-category-introductions
+41,Language Workflows,AI Technical Translation,https://mira8264.github.io/ai-technical-translation/,ai-technical-translation
+42,Language Workflows,AI Subtitle Localization,https://mira8264.github.io/ai-subtitle-localization/,ai-subtitle-localization
+43,Language Workflows,AI UI String Localization,https://mira8264.github.io/ai-ui-string-localization/,ai-ui-string-localization
+44,Language Workflows,AI Terminology Management,https://mira8264.github.io/ai-terminology-management/,ai-terminology-management
+45,Language Workflows,AI Multilingual Support,https://mira8264.github.io/ai-multilingual-support/,ai-multilingual-support
+46,Language Workflows,AI Plain Language Editing,https://mira8264.github.io/ai-plain-language/,ai-plain-language
+47,Language Workflows,AI Brand Style Editing,https://mira8264.github.io/ai-brand-style/,ai-brand-style
+48,Language Workflows,AI Accessibility Copy,https://mira8264.github.io/ai-accessibility-copy/,ai-accessibility-copy
+49,Language Workflows,AI Translation QA,https://mira8264.github.io/ai-translation-qa/,ai-translation-qa
+50,Language Workflows,AI Content Adaptation,https://mira8264.github.io/ai-content-adaptation/,ai-content-adaptation
+51,Data Workflows,AI JSON Extraction,https://mira8264.github.io/ai-json-extraction/,ai-json-extraction
+52,Data Workflows,AI Table Cleaning,https://mira8264.github.io/ai-table-cleaning/,ai-table-cleaning
+53,Data Workflows,AI Entity Resolution,https://mira8264.github.io/ai-entity-resolution/,ai-entity-resolution
+54,Data Workflows,AI Intent Classification,https://mira8264.github.io/ai-intent-classification/,ai-intent-classification
+55,Data Workflows,AI Sentiment Labeling,https://mira8264.github.io/ai-sentiment-labeling/,ai-sentiment-labeling
+56,Data Workflows,AI Document Routing,https://mira8264.github.io/ai-document-routing/,ai-document-routing
+57,Data Workflows,AI Duplicate Content Review,https://mira8264.github.io/ai-duplicate-content/,ai-duplicate-content
+58,Data Workflows,AI Record Enrichment,https://mira8264.github.io/ai-record-enrichment/,ai-record-enrichment
+59,Data Workflows,AI Spreadsheet Explanation,https://mira8264.github.io/ai-spreadsheet-explanation/,ai-spreadsheet-explanation
+60,Data Workflows,AI Data Dictionary Drafting,https://mira8264.github.io/ai-data-dictionary/,ai-data-dictionary
+61,Learning Resources,AI Lesson Planning,https://mira8264.github.io/ai-lesson-planning/,ai-lesson-planning
+62,Learning Resources,AI Quiz Authoring,https://mira8264.github.io/ai-quiz-authoring/,ai-quiz-authoring
+63,Learning Resources,AI Study Guides,https://mira8264.github.io/ai-study-guides/,ai-study-guides
+64,Learning Resources,AI Language Practice,https://mira8264.github.io/ai-language-practice/,ai-language-practice
+65,Learning Resources,AI Concept Explanations,https://mira8264.github.io/ai-concept-explanations/,ai-concept-explanations
+66,Learning Resources,AI Reading Questions,https://mira8264.github.io/ai-reading-questions/,ai-reading-questions
+67,Learning Resources,AI Rubric Drafting,https://mira8264.github.io/ai-rubric-drafting/,ai-rubric-drafting
+68,Learning Resources,AI Training Scenarios,https://mira8264.github.io/ai-training-scenarios/,ai-training-scenarios
+69,Learning Resources,AI Flashcard Design,https://mira8264.github.io/ai-flashcard-design/,ai-flashcard-design
+70,Learning Resources,AI Course Outline Review,https://mira8264.github.io/ai-course-outline-review/,ai-course-outline-review
+71,Media Production,AI Podcast Show Notes,https://mira8264.github.io/ai-podcast-show-notes/,ai-podcast-show-notes
+72,Media Production,AI Video Chapters,https://mira8264.github.io/ai-video-chapters/,ai-video-chapters
+73,Media Production,AI Interview Preparation,https://mira8264.github.io/ai-interview-preparation/,ai-interview-preparation
+74,Media Production,AI Editorial Calendars,https://mira8264.github.io/ai-editorial-calendars/,ai-editorial-calendars
+75,Media Production,AI Headline Workshop,https://mira8264.github.io/ai-headline-workshop/,ai-headline-workshop
+76,Media Production,AI Newsletter Drafts,https://mira8264.github.io/ai-newsletter-drafts/,ai-newsletter-drafts
+77,Media Production,AI Transcript Cleanup,https://mira8264.github.io/ai-transcript-cleanup/,ai-transcript-cleanup
+78,Media Production,AI Script Outlines,https://mira8264.github.io/ai-script-outlines/,ai-script-outlines
+79,Media Production,AI Content Repurposing,https://mira8264.github.io/ai-content-repurposing/,ai-content-repurposing
+80,Media Production,AI Editorial Fact Checking,https://mira8264.github.io/ai-editorial-fact-check/,ai-editorial-fact-check
+81,Operations Engineering,AI Runbook Drafting,https://mira8264.github.io/ai-runbook-drafting/,ai-runbook-drafting
+82,Operations Engineering,AI Incident Timelines,https://mira8264.github.io/ai-incident-timelines/,ai-incident-timelines
+83,Operations Engineering,AI Change Risk Review,https://mira8264.github.io/ai-change-risk-review/,ai-change-risk-review
+84,Operations Engineering,AI Release Notes,https://mira8264.github.io/ai-release-notes/,ai-release-notes
+85,Operations Engineering,AI Configuration Review,https://mira8264.github.io/ai-configuration-review/,ai-configuration-review
+86,Operations Engineering,AI Alert Explanations,https://mira8264.github.io/ai-alert-explanations/,ai-alert-explanations
+87,Operations Engineering,AI Capacity Planning Notes,https://mira8264.github.io/ai-capacity-notes/,ai-capacity-notes
+88,Operations Engineering,AI Postmortem Drafts,https://mira8264.github.io/ai-postmortem-drafts/,ai-postmortem-drafts
+89,Operations Engineering,AI Deployment Checklists,https://mira8264.github.io/ai-deployment-checklists/,ai-deployment-checklists
+90,Operations Engineering,AI Infrastructure Inventory,https://mira8264.github.io/ai-infrastructure-inventory/,ai-infrastructure-inventory
+91,Model Operations,AI Model Evaluation,https://mira8264.github.io/ai-model-evaluation/,ai-model-evaluation
+92,Model Operations,AI Prompt Versioning,https://mira8264.github.io/ai-prompt-versioning/,ai-prompt-versioning
+93,Model Operations,AI Token Budgeting,https://mira8264.github.io/ai-token-budgeting/,ai-token-budgeting
+94,Model Operations,AI Latency Testing,https://mira8264.github.io/ai-latency-testing/,ai-latency-testing
+95,Model Operations,AI Fallback Routing,https://mira8264.github.io/ai-fallback-routing/,ai-fallback-routing
+96,Model Operations,AI Structured Output QA,https://mira8264.github.io/ai-structured-output-qa/,ai-structured-output-qa
+97,Model Operations,AI Context Window Design,https://mira8264.github.io/ai-context-window-design/,ai-context-window-design
+98,Model Operations,AI Batch Processing,https://mira8264.github.io/ai-batch-processing/,ai-batch-processing
+99,Model Operations,AI Usage Monitoring,https://mira8264.github.io/ai-usage-monitoring/,ai-usage-monitoring
+100,Model Operations,AI Gateway Planning,https://mira8264.github.io/ai-ai-gateway-planning/,ai-ai-gateway-planning
