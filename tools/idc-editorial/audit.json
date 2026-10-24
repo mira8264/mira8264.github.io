@@ -1,0 +1,1183 @@
+{
+  "scope": 100,
+  "content_manifest_sha256": "9c13ff9af47dfc92340a09da15c9fb70ee2962de97585cdca19e5e6f93ef0083",
+  "before": {
+    "core_paragraph_slots": 800,
+    "distinct_core_paragraphs": 373,
+    "texts_shared_across_pages": 138,
+    "shared_texts": {
+      "独立服务器应确认整机CPU型号、物理核心、内存容量、磁盘介质与RAID策略。独享硬件方便持续运行数据库和固定负载，但备份、重装与故障恢复仍需单独安排。": [
+        "idc-hk-01",
+        "idc-tw-01",
+        "idc-us-01"
+      ],
+      "索取CPU完整型号与磁盘健康报告，核对是否整机交付、是否有IPMI和系统重装权限。": [
+        "idc-hk-01",
+        "idc-tw-01",
+        "idc-us-01"
+      ],
+      "持续写入的订单数据库优先检查磁盘时延，不能只比较CPU核数。": [
+        "idc-hk-01",
+        "idc-tw-01",
+        "idc-us-01"
+      ],
+      "交付配置与订单一致，磁盘可用容量、管理权限和备份责任都有记录。": [
+        "idc-hk-01",
+        "idc-tw-01",
+        "idc-us-01"
+      ],
+      "交付配置与订单一致，磁盘可用容量、管理权限和备份责任都有记录。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-01",
+        "idc-tw-01",
+        "idc-us-01"
+      ],
+      "向IDC3获取与本专题需求一致的当前报价，区分首期、续费及附加服务。本页的预算数字用于演示计算，不代表实时套餐。": [
+        "idc-compare-01",
+        "idc-compare-02",
+        "idc-compare-03",
+        "idc-compare-04",
+        "idc-compare-05",
+        "idc-compare-06",
+        "idc-compare-07",
+        "idc-compare-08",
+        "idc-compare-09",
+        "idc-compare-10",
+        "idc-hk-01",
+        "idc-hk-02",
+        "idc-hk-03",
+        "idc-hk-04",
+        "idc-hk-05",
+        "idc-hk-06",
+        "idc-hk-07",
+        "idc-hk-08",
+        "idc-hk-09",
+        "idc-hk-10",
+        "idc-hk-11",
+        "idc-hk-12",
+        "idc-hk-13",
+        "idc-hk-14",
+        "idc-hk-15",
+        "idc-hk-16",
+        "idc-hk-17",
+        "idc-hk-18",
+        "idc-hk-19",
+        "idc-hk-20",
+        "idc-hk-21",
+        "idc-hk-22",
+        "idc-hk-23",
+        "idc-hk-24",
+        "idc-hk-25",
+        "idc-hk-26",
+        "idc-hk-27",
+        "idc-hk-28",
+        "idc-hk-29",
+        "idc-hk-30",
+        "idc-tw-01",
+        "idc-tw-02",
+        "idc-tw-03",
+        "idc-tw-04",
+        "idc-tw-05",
+        "idc-tw-06",
+        "idc-tw-07",
+        "idc-tw-08",
+        "idc-tw-09",
+        "idc-tw-10",
+        "idc-tw-11",
+        "idc-tw-12",
+        "idc-tw-13",
+        "idc-tw-14",
+        "idc-tw-15",
+        "idc-tw-16",
+        "idc-tw-17",
+        "idc-tw-18",
+        "idc-tw-19",
+        "idc-tw-20",
+        "idc-tw-21",
+        "idc-tw-22",
+        "idc-tw-23",
+        "idc-tw-24",
+        "idc-tw-25",
+        "idc-tw-26",
+        "idc-tw-27",
+        "idc-tw-28",
+        "idc-tw-29",
+        "idc-tw-30",
+        "idc-us-01",
+        "idc-us-02",
+        "idc-us-03",
+        "idc-us-04",
+        "idc-us-05",
+        "idc-us-06",
+        "idc-us-07",
+        "idc-us-08",
+        "idc-us-09",
+        "idc-us-10",
+        "idc-us-11",
+        "idc-us-12",
+        "idc-us-13",
+        "idc-us-14",
+        "idc-us-15",
+        "idc-us-16",
+        "idc-us-17",
+        "idc-us-18",
+        "idc-us-19",
+        "idc-us-20",
+        "idc-us-21",
+        "idc-us-22",
+        "idc-us-23",
+        "idc-us-24",
+        "idc-us-25",
+        "idc-us-26",
+        "idc-us-27",
+        "idc-us-28",
+        "idc-us-29",
+        "idc-us-30"
+      ],
+      "城市名称只能缩小位置范围，不能代替机房、上游运营商和实际路由。应从主要访客网络测试候选机房，同时记录入口、回程与业务响应时间。": [
+        "idc-tw-02",
+        "idc-us-02",
+        "idc-us-03"
+      ],
+      "向服务方索取具体机房区域、测试地址及带宽计费口径；用相同文件、同一时段对比。": [
+        "idc-tw-02",
+        "idc-us-02",
+        "idc-us-03"
+      ],
+      "两个同城机房可能接入不同上游，页面首字节时间和晚高峰丢包也可能不同。": [
+        "idc-tw-02",
+        "idc-us-02",
+        "idc-us-03"
+      ],
+      "位置、上游、测试日期及本地运营商都有注明，业务响应满足自定目标。": [
+        "idc-tw-02",
+        "idc-us-02",
+        "idc-us-03"
+      ],
+      "位置、上游、测试日期及本地运营商都有注明，业务响应满足自定目标。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-02",
+        "idc-us-02",
+        "idc-us-03"
+      ],
+      "裸金属通常提供整机资源及自动化交付能力。是否支持API、重装、VLAN和自定义镜像取决于产品，应把这些能力写进交付需求。": [
+        "idc-tw-04",
+        "idc-us-04"
+      ],
+      "分别核对资源独享范围、镜像列表、重装耗时、网络配置与控制台权限。": [
+        "idc-tw-04",
+        "idc-us-04"
+      ],
+      "需要重复部署同一应用时，镜像导入和初始化脚本比一次性的人工安装更有价值。": [
+        "idc-tw-04",
+        "idc-us-04"
+      ],
+      "能完成一次测试部署与重装，并确认重装会清除哪些磁盘。": [
+        "idc-tw-04",
+        "idc-us-04"
+      ],
+      "能完成一次测试部署与重装，并确认重装会清除哪些磁盘。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-04",
+        "idc-us-04"
+      ],
+      "比较服务商时，先用一致的资源、线路和支持范围询价。价格差异可能来自带宽共享程度、硬件代际、IP数量和备份服务，不能据此直接排名。": [
+        "idc-hk-05",
+        "idc-tw-05"
+      ],
+      "整理至少两份可比报价，逐项记录首期、续费、开通、退款及故障处理条款。": [
+        "idc-hk-05",
+        "idc-tw-05"
+      ],
+      "一个报价含系统管理，另一个只含硬件维护，两者月费不能直接比较。": [
+        "idc-hk-05",
+        "idc-tw-05"
+      ],
+      "供应方身份、订单内容、付款周期与支持责任可核对。": [
+        "idc-hk-05",
+        "idc-tw-05"
+      ],
+      "供应方身份、订单内容、付款周期与支持责任可核对。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-05",
+        "idc-tw-05"
+      ],
+      "月费应拆成主机、带宽、IPv4、系统授权、备份和一次性开通费。促销价与续费价分开记录，同一币种同一周期比较才有意义。": [
+        "idc-hk-06",
+        "idc-tw-06",
+        "idc-us-06"
+      ],
+      "使用本页预算工具输入实际报价；未确认的项目留待询价，不把它们默认为免费。": [
+        "idc-hk-06",
+        "idc-tw-06",
+        "idc-us-06"
+      ],
+      "假设主机500、带宽100、IP50、其他50，每月经常性费用为700；一次性费用另算。": [
+        "idc-hk-06",
+        "idc-tw-06",
+        "idc-us-06"
+      ],
+      "报价有日期、币种、计费周期和续费条件，预算包含全部必选项目。": [
+        "idc-hk-06",
+        "idc-tw-06",
+        "idc-us-06"
+      ],
+      "报价有日期、币种、计费周期和续费条件，预算包含全部必选项目。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-06",
+        "idc-tw-06",
+        "idc-us-06"
+      ],
+      "价格表应把CPU型号、内存、磁盘、带宽、流量、IP和授权并列展示。相同核心数不代表相同处理能力，限量流量与独享端口也不能混为一列。": [
+        "idc-hk-07",
+        "idc-tw-07",
+        "idc-us-07"
+      ],
+      "按相同配置填写两份报价，特别标出带宽保证值、流量超额单价与续费价格。": [
+        "idc-hk-07",
+        "idc-tw-07",
+        "idc-us-07"
+      ],
+      "100Mbps端口配1TB流量，与100Mbps不限流量，费用和可用持续吞吐不同。": [
+        "idc-hk-07",
+        "idc-tw-07",
+        "idc-us-07"
+      ],
+      "每行规格完整；页面不把示例价格当作实时库存报价。": [
+        "idc-hk-07",
+        "idc-tw-07",
+        "idc-us-07"
+      ],
+      "每行规格完整；页面不把示例价格当作实时库存报价。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-07",
+        "idc-tw-07",
+        "idc-us-07"
+      ],
+      "月付便于验证线路及业务负载。应先完成测试、备份恢复和数据迁移，再按实际效果决定续订；付款前核对续费时间及停机保留期限。": [
+        "idc-hk-08",
+        "idc-tw-08",
+        "idc-us-08"
+      ],
+      "先迁移测试站，检查解析、证书、邮件和备份，保留回退地址。": [
+        "idc-hk-08",
+        "idc-tw-08",
+        "idc-us-08"
+      ],
+      "月付首次上线可保留旧站数日，通过访问日志确认流量迁移后再清理。": [
+        "idc-hk-08",
+        "idc-tw-08",
+        "idc-us-08"
+      ],
+      "账单周期清楚，测试与回退已完成，自动续费设置符合采购安排。": [
+        "idc-hk-08",
+        "idc-tw-08",
+        "idc-us-08"
+      ],
+      "账单周期清楚，测试与回退已完成，自动续费设置符合采购安排。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-08",
+        "idc-tw-08",
+        "idc-us-08"
+      ],
+      "年付优惠要按全年总成本评估，包括续费、授权、IP和中途升级费用。先确认线路稳定性及合同条件，再决定预付周期。": [
+        "idc-hk-09",
+        "idc-tw-09",
+        "idc-us-10"
+      ],
+      "索取年付与月付同规格报价，比较十二个月费用和退款、迁移、升级处理方式。": [
+        "idc-hk-09",
+        "idc-tw-09",
+        "idc-us-10"
+      ],
+      "若月付700、年付7560，则示例折扣为10%；这只是计算示例，不是IDC3活动价格。": [
+        "idc-hk-09",
+        "idc-tw-09",
+        "idc-us-10"
+      ],
+      "优惠有效期与续费价已记录，年付总价与合同一致。": [
+        "idc-hk-09",
+        "idc-tw-09",
+        "idc-us-10"
+      ],
+      "优惠有效期与续费价已记录，年付总价与合同一致。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-09",
+        "idc-tw-09",
+        "idc-us-10"
+      ],
+      "压低费用应先去掉闲置资源，保留稳定网络、足够内存和可恢复备份。低价套餐若需要额外购买IP、流量和授权，总成本可能增加。": [
+        "idc-hk-10",
+        "idc-tw-10",
+        "idc-us-09"
+      ],
+      "测量峰值内存、磁盘增长和月流量，按真实消耗选择配置。": [
+        "idc-hk-10",
+        "idc-tw-10",
+        "idc-us-09"
+      ],
+      "日均访问不高的网站可先用小配置，但数据库工作集超过内存时应优先扩内存。": [
+        "idc-hk-10",
+        "idc-tw-10",
+        "idc-us-09"
+      ],
+      "预算覆盖关键资源，升级路径与迁移方式明确。": [
+        "idc-hk-10",
+        "idc-tw-10",
+        "idc-us-09"
+      ],
+      "预算覆盖关键资源，升级路径与迁移方式明确。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-10",
+        "idc-tw-10",
+        "idc-us-09"
+      ],
+      "CN2或GIA名称不能单独证明所有运营商和所有方向都走同一路由。核对去程与回程，并在业务访问时段测试实际HTTP响应。": [
+        "idc-hk-11",
+        "idc-tw-11",
+        "idc-us-11"
+      ],
+      "分别记录电信、联通、移动的MTR、路由跳点、丢包与响应分位数。": [
+        "idc-hk-11",
+        "idc-tw-11",
+        "idc-us-11"
+      ],
+      "一次路由看到某骨干节点不能推出整条链路一直使用该网络。": [
+        "idc-hk-11",
+        "idc-tw-11",
+        "idc-us-11"
+      ],
+      "线路承诺有覆盖范围，测试包含双向和高峰时段。": [
+        "idc-hk-11",
+        "idc-tw-11",
+        "idc-us-11"
+      ],
+      "线路承诺有覆盖范围，测试包含双向和高峰时段。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-11",
+        "idc-tw-11",
+        "idc-us-11"
+      ],
+      "访问速度包括DNS、TCP、TLS、服务端处理及内容传输，不能用一个ping值概括。固定测试对象后分别定位网络与应用耗时。": [
+        "idc-tw-13",
+        "idc-us-12",
+        "idc-us-26"
+      ],
+      "执行curl -w记录解析、连接、首字节和总耗时；高峰低峰重复采样。": [
+        "idc-tw-13",
+        "idc-us-12",
+        "idc-us-26"
+      ],
+      "ping正常但首字节慢，可能是数据库或应用处理，并非机房距离问题。": [
+        "idc-tw-13",
+        "idc-us-12",
+        "idc-us-26"
+      ],
+      "各阶段耗时都有记录，调整前后使用同一测试方式。": [
+        "idc-tw-13",
+        "idc-us-12",
+        "idc-us-26"
+      ],
+      "各阶段耗时都有记录，调整前后使用同一测试方式。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-13",
+        "idc-us-12",
+        "idc-us-26"
+      ],
+      "BGP多线可以提供多个上游选择，但不会保证每次访问都使用延迟最低的路径。实际选路由策略、对等互联和网络故障共同决定。": [
+        "idc-hk-13",
+        "idc-tw-15"
+      ],
+      "确认上游运营商、是否冗余出口、是否提供测试IP及路由优化支持。": [
+        "idc-hk-13",
+        "idc-tw-15"
+      ],
+      "多条上游中某条拥堵时，策略调整可能改善部分用户，但需重新验证其他网络。": [
+        "idc-hk-13",
+        "idc-tw-15"
+      ],
+      "线路样本与业务响应已验收，冗余和故障处理边界有说明。": [
+        "idc-hk-13",
+        "idc-tw-15"
+      ],
+      "线路样本与业务响应已验收，冗余和故障处理边界有说明。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-13",
+        "idc-tw-15"
+      ],
+      "IP注册资料、地理库、实际路由和目标业务识别是不同信息。原生IP应说明判断口径，不能凭单一归属地网站保证第三方平台接受。": [
+        "idc-hk-16",
+        "idc-tw-16",
+        "idc-us-16",
+        "idc-us-30"
+      ],
+      "交叉核对RDAP、两个地理库和实际业务可达性，保存查询日期。": [
+        "idc-hk-16",
+        "idc-tw-16",
+        "idc-us-16",
+        "idc-us-30"
+      ],
+      "地理库A显示美国、B显示其他地区时，先核对分配资料和运营商更新记录。": [
+        "idc-hk-16",
+        "idc-tw-16",
+        "idc-us-16",
+        "idc-us-30"
+      ],
+      "识别结果及差异有记录，购买要求写明用途和验收方式。": [
+        "idc-hk-16",
+        "idc-tw-16",
+        "idc-us-16",
+        "idc-us-30"
+      ],
+      "识别结果及差异有记录，购买要求写明用途和验收方式。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-16",
+        "idc-tw-16",
+        "idc-us-16",
+        "idc-us-30"
+      ],
+      "独享IP需要确认是独立公网地址还是共享NAT端口。它便于解析、证书和访问控制，但不等于没有历史记录或第三方服务限制。": [
+        "idc-hk-19",
+        "idc-tw-17",
+        "idc-us-17"
+      ],
+      "核对公网IPv4数量、是否NAT、入站端口和反向解析能力。": [
+        "idc-hk-19",
+        "idc-tw-17",
+        "idc-us-17"
+      ],
+      "需开放自定义API端口时，应在开通前确认公网映射及防火墙控制权限。": [
+        "idc-hk-19",
+        "idc-tw-17",
+        "idc-us-17"
+      ],
+      "地址可独立解析，所需端口可达，续费与更换费用清楚。": [
+        "idc-hk-19",
+        "idc-tw-17",
+        "idc-us-17"
+      ],
+      "地址可独立解析，所需端口可达，续费与更换费用清楚。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-19",
+        "idc-tw-17",
+        "idc-us-17"
+      ],
+      "多IP服务器要确认地址数量、掩码、网关、绑定方式及额外费用。网站拆分部署还需独立内容、证书与监控，IP数量不是排名保证。": [
+        "idc-hk-04",
+        "idc-hk-17",
+        "idc-tw-18",
+        "idc-us-18"
+      ],
+      "获取服务方地址清单和绑定说明，先配置一个附加地址并测试。": [
+        "idc-hk-04",
+        "idc-hk-17",
+        "idc-tw-18",
+        "idc-us-18"
+      ],
+      "同一网卡可配置多个地址，但服务必须监听正确的地址与端口。": [
+        "idc-hk-04",
+        "idc-hk-17",
+        "idc-tw-18",
+        "idc-us-18"
+      ],
+      "每个地址都能按用途访问，路由、证书与反向解析配置已核对。": [
+        "idc-hk-04",
+        "idc-hk-17",
+        "idc-tw-18",
+        "idc-us-18"
+      ],
+      "每个地址都能按用途访问，路由、证书与反向解析配置已核对。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-04",
+        "idc-hk-17",
+        "idc-tw-18",
+        "idc-us-18"
+      ],
+      "多C段是市场用语，采购时应明确不同/24网段的数量、每段地址数和是否允许替换。不能把跨段IP作为搜索引擎排名承诺。": [
+        "idc-hk-18",
+        "idc-tw-19",
+        "idc-us-19"
+      ],
+      "用CIDR清单逐项核对，询问广播地址、网关和可分配地址的扣除方式。": [
+        "idc-hk-18",
+        "idc-tw-19",
+        "idc-us-19"
+      ],
+      "20个地址可能来自同一/24，也可能分布于多个/24，需要以实际清单确认。": [
+        "idc-hk-18",
+        "idc-tw-19",
+        "idc-us-19"
+      ],
+      "段数、可用数量和分配限制都写入报价。": [
+        "idc-hk-18",
+        "idc-tw-19",
+        "idc-us-19"
+      ],
+      "段数、可用数量和分配限制都写入报价。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-18",
+        "idc-tw-19",
+        "idc-us-19"
+      ],
+      "外贸建站应优先根据客户分布选机房，再配置HTTPS、缓存、备份和监控。源站位置与CDN节点是两层设计。": [
+        "idc-tw-21",
+        "idc-us-21"
+      ],
+      "测试产品页、图片和联系表单，从主要市场记录首字节与完整加载时间。": [
+        "idc-tw-21",
+        "idc-us-21"
+      ],
+      "产品图片较多时，压缩图片和使用缓存可能比单纯增加CPU更有效。": [
+        "idc-tw-21",
+        "idc-us-21"
+      ],
+      "表单、证书、备份恢复和主要市场访问都已验证。": [
+        "idc-tw-21",
+        "idc-us-21"
+      ],
+      "表单、证书、备份恢复和主要市场访问都已验证。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-21",
+        "idc-us-21"
+      ],
+      "WordPress需要兼顾PHP、数据库和文件权限。先安装受维护的软件版本，再做页面缓存、图片优化和异地备份。": [
+        "idc-hk-24",
+        "idc-tw-22"
+      ],
+      "使用测试站检查主题插件兼容性；备份数据库和wp-content后演练恢复。": [
+        "idc-hk-24",
+        "idc-tw-22"
+      ],
+      "缓存命中页快但后台慢时，应查看PHP工作进程、慢查询和插件耗时。": [
+        "idc-hk-24",
+        "idc-tw-22"
+      ],
+      "前台、后台、计划任务与备份恢复正常，管理入口已保护。": [
+        "idc-hk-24",
+        "idc-tw-22"
+      ],
+      "前台、后台、计划任务与备份恢复正常，管理入口已保护。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-24",
+        "idc-tw-22"
+      ],
+      "游戏业务更关注延迟抖动、UDP丢包、单核性能和攻击处理。带宽峰值与防护触发后的线路表现也需要测试。": [
+        "idc-hk-23",
+        "idc-tw-23"
+      ],
+      "向服务方说明协议、端口和目标玩家网络，核对UDP防护和黑洞策略。": [
+        "idc-hk-23",
+        "idc-tw-23"
+      ],
+      "TCP网页测试正常并不能替代游戏UDP会话的稳定性测试。": [
+        "idc-hk-23",
+        "idc-tw-23"
+      ],
+      "实际协议测试通过，清洗阈值、误封处理及攻击时可用性条款明确。": [
+        "idc-hk-23",
+        "idc-tw-23"
+      ],
+      "实际协议测试通过，清洗阈值、误封处理及攻击时可用性条款明确。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-23",
+        "idc-tw-23"
+      ],
+      "Windows远程桌面需要正确的端口、安全组和授权配置。管理连接与多用户业务会话属于不同用途，按实际使用确认许可。": [
+        "idc-tw-24",
+        "idc-us-25"
+      ],
+      "使用独立管理用户，限制来源IP，确认RDP服务、网络级别身份验证与会话需求。": [
+        "idc-tw-24",
+        "idc-us-25"
+      ],
+      "单人维护能连接，不代表产品已授权多人同时办公。": [
+        "idc-tw-24",
+        "idc-us-25"
+      ],
+      "远程连接可用，权限隔离、许可与断线重连符合需求。": [
+        "idc-tw-24",
+        "idc-us-25"
+      ],
+      "远程连接可用，权限隔离、许可与断线重连符合需求。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-24",
+        "idc-us-25"
+      ],
+      "Windows服务器需核对版本、授权费用、镜像来源和更新策略。系统服务、应用依赖及内存需求共同影响配置。": [
+        "idc-hk-25",
+        "idc-tw-25"
+      ],
+      "先确认软件支持的系统版本，核对许可证包含范围与防火墙规则。": [
+        "idc-hk-25",
+        "idc-tw-25"
+      ],
+      "依赖旧运行库的应用应先测试兼容，不能仅凭系统更新就直接迁移生产。": [
+        "idc-hk-25",
+        "idc-tw-25"
+      ],
+      "应用、更新、远程管理与授权核对完毕，备份可以恢复。": [
+        "idc-hk-25",
+        "idc-tw-25"
+      ],
+      "应用、更新、远程管理与授权核对完毕，备份可以恢复。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-25",
+        "idc-tw-25"
+      ],
+      "Mbps描述速率，GB或TB描述累计传输量。100Mbps理论上约12.5MB/s，实际吞吐还受到协议开销、并发和磁盘限制。": [
+        "idc-tw-28",
+        "idc-us-29"
+      ],
+      "用本页工具估算持续传输量，核对独享或共享、端口上限及流量超额费用。": [
+        "idc-tw-28",
+        "idc-us-29"
+      ],
+      "10Mbps持续使用30天的十进制理论量约3240GB，真实费用按服务方计费口径。": [
+        "idc-tw-28",
+        "idc-us-29"
+      ],
+      "峰值速率和月传输量均已估算，套餐限制和超额方式明确。": [
+        "idc-tw-28",
+        "idc-us-29"
+      ],
+      "峰值速率和月传输量均已估算，套餐限制和超额方式明确。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-tw-28",
+        "idc-us-29"
+      ],
+      "境外源站通常不按中国大陆接入的同一流程办理ICP备案；使用大陆CDN或其他大陆接入服务时，应核对对应服务条件。经营内容仍需遵守适用要求。": [
+        "idc-hk-26",
+        "idc-tw-30"
+      ],
+      "确认源站和CDN部署地区，再向接入商核对备案、域名实名及业务资质要求。": [
+        "idc-hk-26",
+        "idc-tw-30"
+      ],
+      "境外源站接入大陆CDN时，CDN服务可能仍要求备案。": [
+        "idc-hk-26",
+        "idc-tw-30"
+      ],
+      "源站、CDN与域名服务要求已经分别确认。": [
+        "idc-hk-26",
+        "idc-tw-30"
+      ],
+      "源站、CDN与域名服务要求已经分别确认。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-26",
+        "idc-tw-30"
+      ],
+      "DDoS防护需要明确保护协议、清洗容量、触发阈值、黑洞时长和超额计费。防护总容量不能当成单个地址的保证。": [
+        "idc-hk-03",
+        "idc-us-05"
+      ],
+      "提交业务协议及端口清单，核对清洗后回源、真实客户端IP与误封申诉方式。": [
+        "idc-hk-03",
+        "idc-us-05"
+      ],
+      "网页HTTP防护与游戏UDP防护范围不同，必须按业务确认。": [
+        "idc-hk-03",
+        "idc-us-05"
+      ],
+      "阈值、封堵恢复、协议覆盖与费用写入方案。": [
+        "idc-hk-03",
+        "idc-us-05"
+      ],
+      "阈值、封堵恢复、协议覆盖与费用写入方案。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-03",
+        "idc-us-05"
+      ],
+      "本地traceroute只显示从本地到目标的方向。回程需要目标机或服务商Looking Glass向用户网络测试。": [
+        "idc-hk-15",
+        "idc-us-27"
+      ],
+      "记录双向路由、运营商和时间，结合实际TCP或HTTPS业务表现。": [
+        "idc-hk-15",
+        "idc-us-27"
+      ],
+      "去程优化但回程绕路时，页面传输仍可能慢，不能只看单向图。": [
+        "idc-hk-15",
+        "idc-us-27"
+      ],
+      "两方向均有证据，服务方已确认路由优化范围。": [
+        "idc-hk-15",
+        "idc-us-27"
+      ],
+      "两方向均有证据，服务方已确认路由优化范围。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-15",
+        "idc-us-27"
+      ],
+      "电商部署除了首页速度，还应测试购物车、支付回调、库存同步和邮件。缓存规则必须排除个性化页面。": [
+        "idc-hk-21",
+        "idc-us-22"
+      ],
+      "在测试环境走完整订单，确认支付沙盒回调、HTTPS和备份恢复。": [
+        "idc-hk-21",
+        "idc-us-22"
+      ],
+      "整站缓存若错误覆盖购物车，可能造成显示异常；应按平台配置排除规则。": [
+        "idc-hk-21",
+        "idc-us-22"
+      ],
+      "下单、支付回调和邮件通过测试，客户数据访问权限明确。": [
+        "idc-hk-21",
+        "idc-us-22"
+      ],
+      "下单、支付回调和邮件通过测试，客户数据访问权限明确。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-21",
+        "idc-us-22"
+      ],
+      "API服务关注请求延迟分布、并发、限流、错误率和数据库连接。出口带宽与请求大小共同影响容量。": [
+        "idc-hk-22",
+        "idc-us-24"
+      ],
+      "测量固定负载下p50、p95、错误率与资源使用，记录超时和重试策略。": [
+        "idc-hk-22",
+        "idc-us-24"
+      ],
+      "平均延迟正常但p95很高时，需查慢查询、连接池和外部依赖。": [
+        "idc-hk-22",
+        "idc-us-24"
+      ],
+      "接口鉴权、限流、日志脱敏、健康检查和回滚已完成。": [
+        "idc-hk-22",
+        "idc-us-24"
+      ],
+      "接口鉴权、限流、日志脱敏、健康检查和回滚已完成。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-hk-22",
+        "idc-us-24"
+      ],
+      "比较基于同一测试任务与预算口径，结论注明客户市场、测试日期和限制。": [
+        "idc-compare-01",
+        "idc-compare-02",
+        "idc-compare-03",
+        "idc-compare-04",
+        "idc-compare-05",
+        "idc-compare-06",
+        "idc-compare-07",
+        "idc-compare-08",
+        "idc-compare-09",
+        "idc-compare-10"
+      ],
+      "比较基于同一测试任务与预算口径，结论注明客户市场、测试日期和限制。测试结果应注明时间、网络和使用的业务任务，避免把个别样本推广到全部访问者。": [
+        "idc-compare-01",
+        "idc-compare-02",
+        "idc-compare-03",
+        "idc-compare-04",
+        "idc-compare-05",
+        "idc-compare-06",
+        "idc-compare-07",
+        "idc-compare-08",
+        "idc-compare-09",
+        "idc-compare-10"
+      ]
+    },
+    "most_repeated_pairs": {
+      "idc-hk-01 / idc-tw-01": 6,
+      "idc-hk-01 / idc-us-01": 6,
+      "idc-tw-01 / idc-us-01": 6,
+      "idc-hk-03 / idc-us-05": 6,
+      "idc-hk-04 / idc-hk-17": 6,
+      "idc-hk-04 / idc-tw-18": 6,
+      "idc-hk-04 / idc-us-18": 6,
+      "idc-hk-05 / idc-tw-05": 6,
+      "idc-hk-06 / idc-tw-06": 6,
+      "idc-hk-06 / idc-us-06": 6
+    }
+  },
+  "after": {
+    "core_paragraph_slots": 800,
+    "distinct_core_paragraphs": 800,
+    "texts_shared_across_pages": 0,
+    "shared_texts": {},
+    "most_repeated_pairs": {}
+  },
+  "checks": [
+    "head byte-identical",
+    "all HTML tags and attributes identical",
+    "footer and ad byte-identical",
+    "all href values identical",
+    "scripts and form byte-identical",
+    "idempotent rewrite",
+    "100 unique titles and descriptions",
+    "self-canonical paths unchanged"
+  ],
+  "pages": {
+    "idc-tw-01": {
+      "before_sha256": "6eda7798d75de718477628eb0e380c55a6e0d4d8e1346662bbb040a331acf5e6",
+      "after_sha256": "0a08fa2998db18e8ea94d9739ef7f61778acc75aa29899e2344d12eca7b87053"
+    },
+    "idc-tw-02": {
+      "before_sha256": "201f491747e8a73842133ee329980a2e51dae5789034ba0a738992ac98c88112",
+      "after_sha256": "cb9e3d683ed7ef8445d205e428cbf35086ee9889393fcfc350c46f93092c0ae7"
+    },
+    "idc-tw-03": {
+      "before_sha256": "35612e6bde96ad490e4fb50f8a377006e1dbe0dc70355d71bb2cea9afa940d0a",
+      "after_sha256": "b01c1d8ca0a753a22163876ce296889040128e684ad239cefc3cbbd5f700eb9f"
+    },
+    "idc-tw-04": {
+      "before_sha256": "c7dd22a38260d56ba691164eec28c5d5aa9fb1562cd98a8b272e776f534d6fa5",
+      "after_sha256": "fb849eb60d9d018fdb6c7856582e6ce0e3e1536465cfdd4ef6dfaaf34e42b08d"
+    },
+    "idc-tw-05": {
+      "before_sha256": "12c3ab48413b99fe301315b4388b05bbf7be09bbf1aebb595b34161ede8c22f3",
+      "after_sha256": "5a6448cf2dfc366c3cd986a839c40c07332d78d27984fc9b9fc7c5596f53500b"
+    },
+    "idc-tw-06": {
+      "before_sha256": "0a0c587632ecf97c621710adc80eb3fde472b059199cd7f62c2806e34a313837",
+      "after_sha256": "5a77fe7cdcf53d712bd29d183b08ce00b606d2f238fc7211e3d6c0576fca426d"
+    },
+    "idc-tw-07": {
+      "before_sha256": "689a76c9a001417888ac42d7dc6a9791d0059355a3b7a33ac926beb2be510551",
+      "after_sha256": "10f6451966a04e8cf11ce9b4e0b454d69370b00bfcd50c0364ee7a6608b34002"
+    },
+    "idc-tw-08": {
+      "before_sha256": "a7dc1f97eb275a4baa0bf2a1132947acb09af83b90648a74152b09c25edf0b48",
+      "after_sha256": "8d174cd4f2a5b2c7522a4e8500bba74d113b750aa7b0d4a4990103f3ba0a06f7"
+    },
+    "idc-tw-09": {
+      "before_sha256": "30c637e6a2e8478f17000a79b3ed6710d82a461b9b6c845989c09e3555d1651c",
+      "after_sha256": "d26d32648f80b40b4f5042cc279333e01d8aa1903dbe44c48b2e062fd6db2190"
+    },
+    "idc-tw-10": {
+      "before_sha256": "d352bd1cc666b983202bcd5e3b79d5036ae515efc847d5e62ddfa1c2b0cf3fc7",
+      "after_sha256": "1e96ec2c24d0328c54509e0698efa428522f5f4f0e222ae89ad299fa14a5259f"
+    },
+    "idc-tw-11": {
+      "before_sha256": "6fe7e2d6df4cc70782442d6af8d32ab12691b89106c9bbef1642059bace9ff6e",
+      "after_sha256": "a74667be84fee2288ba168acc7e69b054dde63dacffff9b780d381ff876c1d24"
+    },
+    "idc-tw-12": {
+      "before_sha256": "334290bbfd152575df90e038a394248ffc51ea28f788b98e579a993c2fd795b5",
+      "after_sha256": "d9e815d5fbec47c95595b67d933a6eccc4150a1965adee7c1a08e00004433412"
+    },
+    "idc-tw-13": {
+      "before_sha256": "e38003acd005670c6b0f81ba7c9466122e17a3f67b98347d1e42e1966e2ddbc6",
+      "after_sha256": "d332337f84a4209a58084b09129c2ce49b2a026e18cf684223f2144631c68cb1"
+    },
+    "idc-tw-14": {
+      "before_sha256": "a39b2619faeea6af9326b5012f2a8afd12dfee0214c15e56e28dc33903510328",
+      "after_sha256": "d456b2e5dc8121e51fefd3e91cebc5d8d103bc7b33c89d12c3aca9aa38cfe67c"
+    },
+    "idc-tw-15": {
+      "before_sha256": "330a6cc30328ffdedc1506b4d481094aa44761f900bd66a61fd2564caf77499e",
+      "after_sha256": "48402f1d7b348e8f245e88c894b0866f6d3b17d295d8a9e59fc04775ddb03b39"
+    },
+    "idc-tw-16": {
+      "before_sha256": "6f37ca15d4cefb7954eeb9f2ab3eac800281d89a6bc30e24ffc3ec11d8f5128a",
+      "after_sha256": "ca6b5458b7613a518f6ada50c625f6f720f378a96398bc5361de4005a4e41c1b"
+    },
+    "idc-tw-17": {
+      "before_sha256": "498134a2dca94aed350cb7dc59d94ee7d0ff8c4b2551e9523a31f2239fd36341",
+      "after_sha256": "3b40547fd36a8990858a2129d01aaa2858e02909308edb3d3428b22765a24936"
+    },
+    "idc-tw-18": {
+      "before_sha256": "15e85b8055f6a22300496f400af437f9296d577d881a66d18eef40307ddcfd0d",
+      "after_sha256": "a13dae1f2b0f5c0e68e5234acddb042876c97cd53d37def0c0fcbcc0ff2b275b"
+    },
+    "idc-tw-19": {
+      "before_sha256": "d507809e4f9222cf34a12b863ed501422867eafd29b9cb0d9bc0d6c90f3f21f4",
+      "after_sha256": "f5375ab9245818f5472df5dc414c57467792e5dae9c1baea29646c539ae137af"
+    },
+    "idc-tw-20": {
+      "before_sha256": "8a11db2095b4ff0cdbb79bc48bcddbfb0e3ed31b15fc2d995a1ab3e6662cd0a9",
+      "after_sha256": "a433edefdc1276a28d958f03f90426238568eedd4f5b3067dc7b9322fd52a00d"
+    },
+    "idc-tw-21": {
+      "before_sha256": "2572493b3b461383e4251a8d5f4177ef3074ddc8b8843487b30f4ea2599f98a1",
+      "after_sha256": "92899a460a3f9d839d0d012230fe2b896492da9e45167a55275b238dd1e1d7a5"
+    },
+    "idc-tw-22": {
+      "before_sha256": "c16fa1b3ceac5fbbad9033e17c2e11c607397d9ccbd6759743bdb644959696f0",
+      "after_sha256": "8c7db2319742f38800181d519c5bee50d1c49ed944fad9d9559ebfa27ead52c7"
+    },
+    "idc-tw-23": {
+      "before_sha256": "1be65c1682731f74dae9219f31dfbc35abf15318cb1d0b946d2e27e6ef7cbd3e",
+      "after_sha256": "cfcd7007f10d845e35bd9e8d30080a35da0b8de1740e64817e9ef862627dcaeb"
+    },
+    "idc-tw-24": {
+      "before_sha256": "3868fcecaf170de15832778fdb44a59e3b2327998db17bda37afdbbf43e2c28a",
+      "after_sha256": "6855f03f92942e813f90b2666adb4259ccc2a6e45fc57172d40fbb062ee7775c"
+    },
+    "idc-tw-25": {
+      "before_sha256": "90ebfab89b7642995089c4023db581ed8b0834802d3c34b05170c30b78fb5a3b",
+      "after_sha256": "a4da629de2cf7fe90d3b1c70daa6ac33fab56df0b674f4435823f986d3e616bf"
+    },
+    "idc-tw-26": {
+      "before_sha256": "1ba43934d1c08d77b1dd97ff48d62da6e2ff8e9f7df34d96e61304089f2537b9",
+      "after_sha256": "7a1a0c9b9f42861dbada8b6e0c388ce96a0d999ab17d058b6a269b707aabf369"
+    },
+    "idc-tw-27": {
+      "before_sha256": "83ed09eb4fd73e7244b19e23bd99e94d13012136c42efde4ba155015a9fa3d6d",
+      "after_sha256": "c4d12dfa79711431d04e7c1f68a3ff581594aef4e925b6ee0bc563e99d9bf6ac"
+    },
+    "idc-tw-28": {
+      "before_sha256": "5f86836779b77f06e485b7ff84e9ee8a37f97b1339aa99cd7833624c931f14a5",
+      "after_sha256": "4f47ebc545ff15b2fb3cf9578570c82a52b0b49252bb4581170f2b5fc7044f8e"
+    },
+    "idc-tw-29": {
+      "before_sha256": "92642f05fb13dd5e64ac73e4e7f7191701ba0bfc6f40241e499d772550969426",
+      "after_sha256": "dd39dcf8095f0ad078387ecd18cc33555c7482c909ec494d303fdb061f38cefb"
+    },
+    "idc-tw-30": {
+      "before_sha256": "8f2662cd16fa34574170d89f58b11e39d0ce22d980d8567f990060e67993f230",
+      "after_sha256": "6744706c759871d086316b842d5920a89c6245ab34cb8160821eb22b18ce5704"
+    },
+    "idc-hk-01": {
+      "before_sha256": "2290e8782cfdba43ea98ee88186d6adb1eff1c8daf2d9819632ccb7ab82e530a",
+      "after_sha256": "b08ff04ea3710aaa854fcc065b4ee0b1d0554022026ff3cc76cd5d3f6e56e8b2"
+    },
+    "idc-hk-02": {
+      "before_sha256": "9e0f7f256872a40216f7cb3c5b6d3e9c7cc5d0b9954a104a71186cb4d9a14f67",
+      "after_sha256": "1fcc7e734c9d14c15471be2ae128dd9aa2d40dfed35f96ef406953e82df85beb"
+    },
+    "idc-hk-03": {
+      "before_sha256": "0fcb5a64fed7c919afe9baef7b9446b98dd1301a9f1e44b42e258b2a7688002f",
+      "after_sha256": "7a5f75e46c8d181ff01a8fb4b6f7ac4b4d06a22d39db635be2313dd29dd71e82"
+    },
+    "idc-hk-04": {
+      "before_sha256": "0d501791e1a2921a7992b61c48dc823516e3f10a11ea75e1797b09e686377cdb",
+      "after_sha256": "778763c43774c9b48373b3fd56cfdcd6ac9ab80a63920a84b935158c549153dc"
+    },
+    "idc-hk-05": {
+      "before_sha256": "f4bf1b016be46782cc11fefe3e79141d61ab0001f5183a6438ca2f2e31371835",
+      "after_sha256": "4e3378109a8ececeeda282a74f1a1aad058a35e85e2ff985027e8742e7ed1991"
+    },
+    "idc-hk-06": {
+      "before_sha256": "da42093d16cb84297401f2420bcbbc36de9838424f126fa13ea4304002db403b",
+      "after_sha256": "077ec861878def09b6e7cdbae94305db0771bb97197154ec209af7a80b0f9f5d"
+    },
+    "idc-hk-07": {
+      "before_sha256": "dd9fbc4c66e6c2dc8932023dd1133dc29224eded0ca3b944140bb029ac0fdfb9",
+      "after_sha256": "17674fa579c4af776f0a3440cf555689339b3a14a89832eba42abe4e94a1d2b9"
+    },
+    "idc-hk-08": {
+      "before_sha256": "82c64c663bcf29857f7633878622b73ac3e94ae894a66f9d7ed59075202f9453",
+      "after_sha256": "ba65705d41316d283fb82ba612cdd17c247838591c1cd5fb5fe70a5d4658802c"
+    },
+    "idc-hk-09": {
+      "before_sha256": "ffbfd3e2a04b49ec4c1c211cc2157c811e4a461fc1ea0bd7170c56f213006bc7",
+      "after_sha256": "2514fc235b7ae901c7e20ee6e703f0f12be8747c740d830d1bddbb6d517a507a"
+    },
+    "idc-hk-10": {
+      "before_sha256": "9d47af8555d5ae3144d2368d6e338d277dd4ad0fe5282a46218c96ed25404ad5",
+      "after_sha256": "6b695439c77db47dd0e7ddd7d20aa49186dc48e3c61c1ebb30f19421b366974e"
+    },
+    "idc-hk-11": {
+      "before_sha256": "cbff6a1c707accd1575305370437242c208e138ea319d818bc9e29c9b083a682",
+      "after_sha256": "3b56b260b60cf02acb3b627402d3ab004cbcc22d4fd51441612143bbc772a5f8"
+    },
+    "idc-hk-12": {
+      "before_sha256": "884d0f1a8f353f31c9e6427320221454f45c9e0afc63215a16ae5ba30b9f8100",
+      "after_sha256": "465ae4a446be2151d17ed653d52849bf325c049652243ccdd37218fb842c8ed9"
+    },
+    "idc-hk-13": {
+      "before_sha256": "e0ef569884d4ac9ce8b95df7ce9227e49d492f1e89023eeb890648a2c693f8fd",
+      "after_sha256": "9536597d9ce752a3e78f467a862c24174a721bae4364d2989eaad69a759cfebf"
+    },
+    "idc-hk-14": {
+      "before_sha256": "b8e2b1044264bf774c258afa95e2cde9849de4718a1ab135799cf2b187578f75",
+      "after_sha256": "6a3471a54e8b4fd98f8908f2565d5c992bb1bcf7286bc9530f85c902184c5d0b"
+    },
+    "idc-hk-15": {
+      "before_sha256": "44007a942048ac6ea12032c648750549348b0d65e88afe9d0636888793db62ac",
+      "after_sha256": "47f806257e140e32b3d9424b3d2c18fd0193f2f8af8394933472540e7fd8a693"
+    },
+    "idc-hk-16": {
+      "before_sha256": "5175ef4d4334b47882df351f063dbfca8d45cd8e66b0ce2c09cc976b5e0a442a",
+      "after_sha256": "5e29702cf8ec15acc8a3e5dac4ff3dea5475ecafbce34ee3c5183661c74fa35e"
+    },
+    "idc-hk-17": {
+      "before_sha256": "7df6e61a27a7642af7745dc95ca626184da7741ab5e77aa442419b4237b12e98",
+      "after_sha256": "f3ecb2e82d566b0d4345d1c75c051dc89967e7e0901823cc4535eb2591500a38"
+    },
+    "idc-hk-18": {
+      "before_sha256": "47b0a7e520345b36aa85df56b3a4f951a27c41b32e96fbe2549d95665c56038f",
+      "after_sha256": "43e0989f0fdf082b80b2a9a46be33e38bed3227fca2f74c19674db6d9cf6f7b4"
+    },
+    "idc-hk-19": {
+      "before_sha256": "d88c968b9461ccc34c238e8133bd091eb65c3787a68a68370b761f6451d51b21",
+      "after_sha256": "cb77829df94b779ba7c98fd2b288cd6a2ff73bf4f3eea5560beab5c88937c5eb"
+    },
+    "idc-hk-20": {
+      "before_sha256": "aad69f1a8d04d55594ffac31f05b04089baeb8ded35aaadd34b28dd7c7807128",
+      "after_sha256": "fce27975d0fc6d3db2f38b10ba2626049256a7622f491fc84df710a418a4062e"
+    },
+    "idc-hk-21": {
+      "before_sha256": "52be46f5f12e3eb323506be440a83178f850f56760ba5a1b18c68efe70073fa9",
+      "after_sha256": "80a7d2f658980fda6c39455d740fbcd041bfcd4177027b2c4edda115b748f7d7"
+    },
+    "idc-hk-22": {
+      "before_sha256": "26d674101afa8a494f261f5aea872ab0042fd738dba354217c37e5af62af6a73",
+      "after_sha256": "73ac741db18e665a3596b7e3c1ffe914935f33c9125b1443e853a270f4cbe804"
+    },
+    "idc-hk-23": {
+      "before_sha256": "9df50280411f6576ff9ee6104b995a14d16eb5149bcd867b6ae2897c94e4dd01",
+      "after_sha256": "ab345a2eebf51e298708120c1763dad7af82938aa8bf39622b5079c952a2ac80"
+    },
+    "idc-hk-24": {
+      "before_sha256": "5447a82c5da68baf2afd3b6eba342419a33a5490ba49fcb2da9b42122288b0fc",
+      "after_sha256": "38cc0a2b42cf13aade79d3677bea505175952c47a733a36e1d53e0a11bdba708"
+    },
+    "idc-hk-25": {
+      "before_sha256": "85c3c411ae540c750127b62a5c047ca218c99dd495af3f30b976bf59fbfadb56",
+      "after_sha256": "6df7b8da23ac52a6d515ea2b6a577edc55c5576dbc4757a4e598e12512e81ccb"
+    },
+    "idc-hk-26": {
+      "before_sha256": "c18e3204b268b4345052a0bd0ca31f6296f8b2fe3db31c7f31258ef54fae4a7d",
+      "after_sha256": "2cd8f0c75d87c9e23400318229034dd3bfc9481488f8fca9f3cb898b7d80ae2a"
+    },
+    "idc-hk-27": {
+      "before_sha256": "93bb3c13f8fe396c339ce1a0e5d429d8a64041e548bb3600ccf55618df2f2eae",
+      "after_sha256": "94ab081e99b7d4860053dd86ca46a19200448f8b73696691ff3ef4477c45b003"
+    },
+    "idc-hk-28": {
+      "before_sha256": "f47614b08ba03581c6c36ad5a18bc1afa1021af191f7578160ad5ba11671bd81",
+      "after_sha256": "329c987271dc296e4c69df35895289192add7e6dcd89af27b8f8b07f8480c0bd"
+    },
+    "idc-hk-29": {
+      "before_sha256": "dba53bc716120c722e6e19fa8c40bd41d7ee89cde10907a3eeef428fa9829c39",
+      "after_sha256": "34123695a4d8f1905211dd22b79eaad9720bdb60a1a28619e8df02c4eccd1391"
+    },
+    "idc-hk-30": {
+      "before_sha256": "975b06c966dfdebb50467dbe7e7d481bf386020b054cffada2fb56ad1ff31ca7",
+      "after_sha256": "94c165c45f098b4a95b6c99361165de468368f0a5283c9b5b3ad558540d79830"
+    },
+    "idc-us-01": {
+      "before_sha256": "9a0ba719b7322369b75420d97ba05757e61c49501491e8e87c191b30869c26f9",
+      "after_sha256": "e8e21b48131b8603af00d2457810adc9108c7ae8b0d3eafdb30aaa53a3ad7323"
+    },
+    "idc-us-02": {
+      "before_sha256": "ea48a074a43cf39c9ccec93d34dade4d5c35bc0727b2f4fd40beb0c6d7536fbb",
+      "after_sha256": "18827c62b0226fc4575acfb554db6d51452951cc15d24b34ac95f537d56566a4"
+    },
+    "idc-us-03": {
+      "before_sha256": "ba00136567ce9c2f4d2856678cc2efeece09c2448c8ec12aeb5aecb5f8b7dcc3",
+      "after_sha256": "9a1bbcfad50339d43c7d9f48a14121633a4da1907376b7d716d8f06f64166835"
+    },
+    "idc-us-04": {
+      "before_sha256": "6bb19d45f0f19f13a3568f9bb890accda080036ae9eaff5be07f45d5d43d4386",
+      "after_sha256": "2f3364834fc9beeb3c9ebd35ca2b692238234da577493a2c19e14f91e4337390"
+    },
+    "idc-us-05": {
+      "before_sha256": "6fb0b56c34aa987dae67cc4da82820cc9b551820cf3a254d51ba46d067a86a5a",
+      "after_sha256": "b7cc248209bfd49bb3e552be6ea64830e743196234350065248c3c62203aca5b"
+    },
+    "idc-us-06": {
+      "before_sha256": "ad47e259bb31e0053c0c8083bb51d8ae4524030ad75fe9b14aecc4fea0352f19",
+      "after_sha256": "138c14fd3c51f8acaa488f292eb4d6be3aeeef5845853ec9f3f91119f05fb196"
+    },
+    "idc-us-07": {
+      "before_sha256": "b03cddac5539425b8f623124549749afada05344dc6cf9fe766f146edc9faf2a",
+      "after_sha256": "36b24ff463711e8e3b4e0dbd36c48bc705f9944b85fdb32b950ab592782ff3c4"
+    },
+    "idc-us-08": {
+      "before_sha256": "6ba421a333b2ce9a4243593af6088572fcddf19971391c1c00ed80b4138325f3",
+      "after_sha256": "49f87fffc12b23c2be2d06a6d0eeb5965a7cf7f71327d5c76b368bc549846d41"
+    },
+    "idc-us-09": {
+      "before_sha256": "82d2f441546ec895647ebf5865698ef28f0ea027d086b6d6586edfc1e924bc82",
+      "after_sha256": "7f928aeb20dfb6b7ce247f2b63f6e9b857dbc9e52c618c23817eb918cd86d376"
+    },
+    "idc-us-10": {
+      "before_sha256": "4373fbb720c2b38f1ca0f561cb153b0373f9f3057f6cbf292dc9432489e79e43",
+      "after_sha256": "2a83698023d695cf331a6fe0ea83f3befd254a069ed9d2e7c8aa07ef93518b21"
+    },
+    "idc-us-11": {
+      "before_sha256": "d1fe220cb2709ec1a70d34a03b9a7acaca435877cede63fc31be585a4b27b2a3",
+      "after_sha256": "cd1b92c106900ffb7c2c6d1ac2a53da2963f2c9f524ff7a11ea73e73707fbf40"
+    },
+    "idc-us-12": {
+      "before_sha256": "985cb20d2a802f33c91dd282762ac7a40c7b22d1d4813c955d77a5d95fcae7cb",
+      "after_sha256": "6c239e3886cc63a11eb2492acd9a21178667a2127229d4265279c007fa32541d"
+    },
+    "idc-us-13": {
+      "before_sha256": "476f91c0bab24a74c5aa029b1b98e3284f7aee0d3d9fa1e04997e1f17fbe9043",
+      "after_sha256": "f492eba1692564a19e532846325b73293e522de988dd1572d29022732cbbe524"
+    },
+    "idc-us-14": {
+      "before_sha256": "ec8566bb8381c9673c968f0404c30526f8ab1f70d057ce322385d613d5d5a8d4",
+      "after_sha256": "908028aaab22abf828d09e67a03872ef0083f1d1dffb0f78b2b9c1a87de61514"
+    },
+    "idc-us-15": {
+      "before_sha256": "7a68922642d1a92ae1f79283eba1811b619be1aa845ca98ac0600ed22f62e4d3",
+      "after_sha256": "3867197a6801f55700288894672f25c700962e4a6d23b8637fb815142f9d586c"
+    },
+    "idc-us-16": {
+      "before_sha256": "4a17058f87a75b0d2117a9d30d4ce21f09d50ba30af64c92de7f43b883663104",
+      "after_sha256": "13b6d4b72b7bbcee49256c064689329d3928e1b9ae18d898e352bd18f9fb4476"
+    },
+    "idc-us-17": {
+      "before_sha256": "4cfeb39039c9824d213088d46f894d520d9c5fb32f2ac5bb49167f6d22d4db90",
+      "after_sha256": "11bfbfdc40cfc87254ec25ec33e191d0764123b7c36949e1706867d5b181c706"
+    },
+    "idc-us-18": {
+      "before_sha256": "3ebf8be7fc2d60fb5b4dc18b81797693d5e6ae3c6e898d94211a70a82df3ba56",
+      "after_sha256": "50d62f4e46ea108accce893bfba627a09b8353a31896339546b04aaaae734695"
+    },
+    "idc-us-19": {
+      "before_sha256": "c266c6e799ae227422b228b1160a2d4e268ad0ff5e50cbcd22576786137b7f4a",
+      "after_sha256": "b15590a1d06de9d71e606ad4d2cff899e1ec6d49a63be617cc7d0f9c59091fae"
+    },
+    "idc-us-20": {
+      "before_sha256": "86c03cab6cc2e1abf7070d265535796e63b4ca8a047dd35cff6a4cd0a652991e",
+      "after_sha256": "36b8fea9655a590f3ad9f7cf566e1cfa68b13894c798cf0087c6d295c4f6d3b6"
+    },
+    "idc-us-21": {
+      "before_sha256": "87070c6a4e631fe85da7bb38050b3b1a7469e9449f7d6bd6679d0ed554c7af25",
+      "after_sha256": "c9413f40462f84446ecb33d39bc9d8858bbfa0387829972ead18331b7f74fa03"
+    },
+    "idc-us-22": {
+      "before_sha256": "886bfa0512b0b5870ecaafc53b653f9db3b6bc1cff053c8f5ba2dffff446bf08",
+      "after_sha256": "7b06db61a44fb9b072989b9c5eb992d94e430d5e35260bcd6e84e5878b7eef0c"
+    },
+    "idc-us-23": {
+      "before_sha256": "bf92059d91dd170d77564d3d2fc4db602bc550d004cdce4a1433571f325f1487",
+      "after_sha256": "f32d9daf514a0aff4575b59082efdcb304a98249a32e438e736bd4c4637b428e"
+    },
+    "idc-us-24": {
+      "before_sha256": "d4b4ad459652c4ff055ad2c6492a3ed48db2fb80d890481709485e0e9b085823",
+      "after_sha256": "be484f0a4f0b34bc585caff9537c5a45846c88971b1cce055a629c112d5ead02"
+    },
+    "idc-us-25": {
+      "before_sha256": "fc7f51f56577752c32988299a785a60b82f142a41cd4fe6470763dd2ca322442",
+      "after_sha256": "f26d12371db884a071b22fa618ee6b7c392934ce5e198b5769275f71a98fefa5"
+    },
+    "idc-us-26": {
+      "before_sha256": "4aee1633eceb9cfe4f17a3ae5b8e799eb7926f5e57c53f01df5977582ed66da4",
+      "after_sha256": "8958cd6d9dd4d4ec196844d56365da2771664a7fbcdf23f46d432138f44bd1f1"
+    },
+    "idc-us-27": {
+      "before_sha256": "e419ae6e1e18107e941530c5e20924e543cd9c4809e80e3a4687ba7d2ee14aa4",
+      "after_sha256": "8f92a9834ea260793f224069e7217d7455b1d491f7500a2b1fc7dc55106b52a5"
+    },
+    "idc-us-28": {
+      "before_sha256": "a5b8b660bb96dc23ea4620b189802f0172805a9b62a098a9040b1a6ac779c1fa",
+      "after_sha256": "bd5f4d29afd6846cfcacee563933fab3b55f6920438d425e46a3160cf4eba0e7"
+    },
+    "idc-us-29": {
+      "before_sha256": "0bc5614a3d9ba3694f3a6f7e450f3ed513c2dce29b50378817729fc04ff77dbb",
+      "after_sha256": "6ba7d48e5887ab658560b473884ca42a5a74447b068efe6fa857e625e5175486"
+    },
+    "idc-us-30": {
+      "before_sha256": "c104c984df67010606080951eb7425a9a50f15c7c4bd9011f84941ca1bdc34ba",
+      "after_sha256": "522a135ff222b4ec8fed240254c1cfe6bbd9eb9d2154b36ee8f48abf2d313ab1"
+    },
+    "idc-compare-01": {
+      "before_sha256": "0aa4bd9bd3346a34c75a4cbc7d59ff6da9f9703e3927af4a12b75fc744ca4491",
+      "after_sha256": "562f43c69672f14dc0f5413f67796be704a005d0ed79461dc6274c4ac3ebb7a1"
+    },
+    "idc-compare-02": {
+      "before_sha256": "1e7fa9e96a720fab0778c9dcb44f617e24f2ce738152b9d601ae9fadbe648005",
+      "after_sha256": "8912c54b798a903abd48993f15dd05581200bc0f8fc4699850e3a94078960d45"
+    },
+    "idc-compare-03": {
+      "before_sha256": "a823efe6282a689782a38f45f6037f8d80bf8a48bfce135743e6f62d2dae3520",
+      "after_sha256": "a9018f7e046be26fecb2d55293fc6eb89f8c1fc4cecbb26db635d045c3ab8ef5"
+    },
+    "idc-compare-04": {
+      "before_sha256": "a4752f3a2ef2b24e9b16766e54d5c1c70f0db395ad0fdf078c72d80f30558ba3",
+      "after_sha256": "f7ebdae0f7ab638dbf4ba3ccbae7c713b26512ab737a5e37c5e57367fabfef20"
+    },
+    "idc-compare-05": {
+      "before_sha256": "8ef4ed7137867bc57d3157ce34768662c2213364a7cc1cf226013e1864f8e6fb",
+      "after_sha256": "072f9d9dfe469f9c4216f7925d7a4a38130dffb9b985d6cfddead5957a87e691"
+    },
+    "idc-compare-06": {
+      "before_sha256": "4f538a63e2ee8900fae973fb109241fa43d93c581bfdcc73dbcb39cdcc640077",
+      "after_sha256": "71027480d2eeb70a12cfd4091f2393af4eeb78fdd40b732999113e638d399e7e"
+    },
+    "idc-compare-07": {
+      "before_sha256": "2186aad0a9d23320219ceed2565471e90e30aec3c7532d9445fc6e80197776b8",
+      "after_sha256": "9cda0d5e8f6556cad44501042e3ef22aaa0cf8639d2bac155994e93d0daf4416"
+    },
+    "idc-compare-08": {
+      "before_sha256": "4cdc3ec65c97de14d4cfd349515f698281c57f93d35056dd48364a6d1fca05d4",
+      "after_sha256": "c330b33f63c3c76ec5e297214b013d835885c8a383350e0ad8f5265b3c5a30b8"
+    },
+    "idc-compare-09": {
+      "before_sha256": "dc7e77353e8ac65df90b402206abae4581127a9ee49334468396604dcc990a9a",
+      "after_sha256": "9244a206da4b920064e4700cdd3aead513e89eb1a17ed519dc2298c2730a3e21"
+    },
+    "idc-compare-10": {
+      "before_sha256": "d5a122306fbd6dbe4bb3345c31e6f98ceeb3e452cd8627fc5fac4e33a5b77df0",
+      "after_sha256": "f7adb6548d9b4aee430fba491159c8051e384ce1fd57e826608379f60b9ef101"
+    }
+  }
+}
