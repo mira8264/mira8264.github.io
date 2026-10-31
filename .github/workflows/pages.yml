@@ -21,6 +21,84 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Remove advertisements from all published pages
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlsplit
+          import re,json
+          ROOT=Path('.')
+          VOID=set('area base br col embed hr img input link meta param source track wbr'.split())
+          class Node:
+           def __init__(self,tag,attrs,start,parent):self.tag=tag;self.a=dict(attrs);self.start=start;self.end=None;self.parent=parent;self.children=[]
+          class Parser(HTMLParser):
+           def __init__(self,text):
+            super().__init__(convert_charrefs=False);self.text=text;self.line_offsets=[0];self.nodes=[];self.stack=[]
+            for m in re.finditer('\n',text):self.line_offsets.append(m.end())
+            self.feed(text)
+           def pos(self):l,c=self.getpos();return self.line_offsets[l-1]+c
+           def handle_starttag(self,tag,attrs):
+            n=Node(tag,attrs,self.pos(),self.stack[-1] if self.stack else None);self.nodes.append(n)
+            if n.parent:n.parent.children.append(n)
+            if tag in VOID:n.end=self.pos()+len(self.get_starttag_text())
+            else:self.stack.append(n)
+           def handle_startendtag(self,tag,attrs):
+            self.handle_starttag(tag,attrs)
+            if tag not in VOID:self.stack.pop().end=self.pos()+len(self.get_starttag_text())
+           def handle_endtag(self,tag):
+            for i in range(len(self.stack)-1,-1,-1):
+             if self.stack[i].tag==tag:
+              end=self.text.find('>',self.pos())+1
+              for n in self.stack[i:]:n.end=end
+              del self.stack[i:];break
+           def ancestors(self,n):
+            while n.parent:n=n.parent;yield n
+          def promo(h):
+           try:return urlsplit(h).hostname in ['idc3.com','www.idc3.com','93api.com','www.93api.com','docs.93api.com']
+           except:return False
+          report=[]
+          for f in ROOT.rglob('*.html'):
+           text=f.read_text();p=Parser(text);remove=[]
+           for n in p.nodes:
+            cls=n.a.get('class','').split();ident=n.a.get('id','');mark=False
+            if n.tag=='aside' and (ident in ['desktop-ad','cn-token-ad','vi-token-offer','claude-workstation-ad'] or set(cls)&{'ad','token-ad','idc-ad'}):mark=True
+            if n.tag=='script' and any(x in n.a.get('src','') for x in ['idc-ad.js','token-ad.js']):mark=True
+            if n.tag=='a' and (promo(n.a.get('href','')) or 'sponsored' in n.a.get('rel','').split()):
+             target=n
+             for a in p.ancestors(n):
+              if a.tag=='section' and 'cta' in a.a.get('class','').split():target=a;break
+              if a.tag=='aside':target=a;break
+             if target==n and n.parent and n.parent.tag in ['li','p']:target=n.parent
+             remove.append(target)
+            if mark:remove.append(n)
+           spans=sorted(set((n.start,n.end) for n in remove if n.end));merged=[]
+           for a,b in spans:
+            if merged and a<=merged[-1][1]:merged[-1]=(merged[-1][0],max(b,merged[-1][1]))
+            else:merged.append((a,b))
+           new=text
+           for a,b in reversed(merged):new=new[:a]+new[b:]
+           if new!=text:f.write_text(new);report.append({'path':str(f.relative_to(ROOT)),'removed_blocks':len(merged)})
+          markers={'vi-resources/site.js':'const form=','cn-resources/site.js':'const form=','token-resources/site.js':'const nf=','idc-resources/site.js':'const f=','aiwork-resources/site.js':"document.querySelectorAll('[role=tab]')",'claude-assets/site.js':'const worksheet=','server-blog/assets/site.js':'const header='}
+          for name,marker in markers.items():
+           f=ROOT/name;t=f.read_text()
+           if 'const ad=' not in t[:100] and 'const offer=' not in t[:100]:continue
+           start=t.index('const ad=') if 'const ad=' in t[:100] else t.index('const offer=');end=t.index(marker,start);t=t[:start]+t[end:]
+           if name=='aiwork-resources/site.js':t=t.split('// IDC3 promotions:')[0].rstrip()+'\n'
+           f.write_text(t)
+          f=ROOT/'net-resources/site.js';t=f.read_text()
+          if "const ad=document.querySelector('#desktop-ad')" in t:
+           a=t.index("const ad=document.querySelector('#desktop-ad')");b=t.index('const search=',a);f.write_text(t[:a]+t[b:])
+          for name in ['idc-ad.js','ai-resources/token-ad.js']:
+           (ROOT/name).write_text('// Advertising removed. File retained for previously cached pages.\n')
+          print('Removed advertising from',len(report),'HTML pages and shared scripts')
+          changes={'推广广告已单独标明。':'','页面含推广广告；具体套餐、折扣、库存及交付范围以服务商当前报价为准。':'具体配置与服务范围请以当前产品资料为准。','页面含IDC3推广广告。':'','页面含93API推广广告并使用Umami访问统计；':'页面使用Umami访问统计；','Các liên kết quảng cáo được ghi rõ.':'','<b>Provider resources</b>':'<b>Related guides</b>'}
+          for f in ROOT.rglob('*.html'):
+           t=f.read_text();new=t
+           for a,b in changes.items():new=new.replace(a,b)
+           if new!=t:f.write_text(new)
+          PY
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
